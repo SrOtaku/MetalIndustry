@@ -1,0 +1,142 @@
+{
+type: ItemTurret
+
+health: 1250
+size: 2
+range: 300
+rotateSpeed: 15
+reloadTime: 25
+cooldown: 0.06
+restitution: 0.06
+maxAmmo: 84
+liquidCapacity: 22
+coolantMultiplier: 50
+shots: 8
+spread: 1
+shootCone: 0.08
+inaccuracy: 15
+recoilAmount: 2
+shootSound: shotgun
+//(false/true)
+targetGround: false
+targetAir: true
+hasItems: true
+hasPower: false
+hasLiquid: true
+rotate: true
+buildTime: 60
+//config-(projectiles)
+ammoPerShot: 4
+ammoTypes:{
+  ironBall:{
+    type: BasicBulletType
+    lifetime: 30
+    damage: 45
+    speed: 9.5
+    frontColor: ffa420
+    backColor: fff728
+    height: 10
+    width: 8
+    ammoMultiplier: 4
+    homingSpeed: 1.5
+    homingPower: 60
+    homingRange: 120
+    sprite: metalfactory-ball01
+    lifetime: 30
+    hitEffect: blastExplosion
+    splashDamage: 90
+    statusDuration: 60
+    splashDamageRadius: 27.55
+    status: burning
+    collidesAir: true
+    collidesGround: false
+    
+    shootEffect:{
+      type: ParticleEffect
+      particles: 2
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 5
+      sizeTo: 1
+      interp: circleIn
+    }
+  }
+  thorium:{
+    type: BasicBulletType
+    damage: 60
+    speed: 8
+    frontColor: e9b6ef
+    backColor: c74ed6
+    height: 12
+    widht: 7
+    ammoMultiplier: 4
+    lifetime: 30
+    hitEffect: blastExplosion
+    splashDamageRadius: 10
+    splashDamage: 15
+    statusDuration: 30
+    collidesAir: true
+    pierce: true
+    pierceBuilding: true
+    
+      shootEffect:{
+        type: ParticleEffect
+        particles: 1
+        lifetime: 30
+        region: metalfactory-effect01
+        sizeFrom: 4
+        sizeTo: 1
+        interp: circleIn
+      }
+  }
+  titanium:{
+    type: BasicBulletType
+    lifetime: 45
+    damage: 45
+    speed: 9
+    frontColor: 8ca4f5
+    backColor: 5757c2
+    height: 13
+    width: 7
+    ammoMultiplier: 2
+    
+    shootEffect:{
+      type: ParticleEffect
+      particles: 1
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 2
+      sizeTo: 0.5
+      interp: circleIn
+    }
+  }
+  metaglass:{
+    type: BasicBulletType
+    lifetime: 30
+    damage: 25
+    speed: 9
+    height: 11
+    width: 7
+    frontColor: ffffff
+    backColor: cccedb
+    ammoMultiplier: 3
+  }
+}
+consumes:{
+  liquid:{
+    liquid: water
+    amount: 0.1
+    booster: true
+    optional: true
+  }
+}
+requirements:[
+  ironIngot/90
+  steelPlate/80
+  graphite/40
+]
+category: turret
+research:{
+  parent: scatter
+}
+}

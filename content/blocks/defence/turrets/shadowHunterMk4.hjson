@@ -1,0 +1,59 @@
+{type: PowerTurret
+health: 1800
+size: 3
+range: 270
+rotateSpeed: 2.5
+absorbable: true
+targetAir: false
+targetGround: true
+hasPower: true
+autoTarget: true
+reloadTime: 180.0
+cooldown: 0.02
+restitution: 0.02 //Tempo de recarga do recoilAmount:
+maxRange: 265
+shootSound: laserblast
+chargeSound: lasercharge2
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+chargeTime: 48
+recoilAmount: 3.2
+inaccuracy: 0
+powerUse: 7.8 //Quantidade de energia consumida, a cada 0.1 é igual a 6 pontos de energia e por assim vai: 0.2 = 12, 0.3 = 18 e etc...
+buildTime: 60
+buildCostMultiplier: 0.70 //example buildTime: 60 for 1 second
+
+shootType:{
+  type: "LaserBulletType" //O tipo de bala, exemplo: basicBulletType, laserBulletType e etc...
+  damage: 380.5
+  length: 280
+  width: 18
+  colors: ["dff1fd", "8ca4f5", "d7d7d7"]//Cores do raio laser só não indentifiquei ainda os 3 pares de cores...
+  hitColor: cafcfc
+  hitSize: 9
+  drawSize: 8 //Quantidade de particulas ao disparar.
+  sideAngle: 25
+  sideLenght: 30
+  sideWidth: 1
+  impact: true
+}
+
+consumes:{
+  liquid:{
+    liquid: cryofluid
+    amount: 0.1
+    optional: true
+    booster: true
+  }
+}
+
+requirements:[
+  steelPlate/160
+  ironIngot/120
+  metaglass/80
+  ]
+category: turret
+research:{
+  parent: lancer
+}
+}
