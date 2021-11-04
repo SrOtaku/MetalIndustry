@@ -1,0 +1,16 @@
+{
+"type": "Conveyor",
+"health": "460",
+"buildTime": "90",
+"buildCostMultiplier": "1.33",
+"itemCapacity": 14,
+"displayedSpeed": 20, //A informações da velocidade de movimento do item.
+"speed": 0.20,  //O valor da movimentação do item.
+"requirements": [
+  {"item": "ironIngot", "amount": 1},
+	{"item": "steelPlate", "amount": 1},
+	{"item": "titanium", "amount": 1}
+	],
+"category": "distribution",
+"research": "titanium-conveyor",
+}
