@@ -1,0 +1,36 @@
+{
+type: BurnerGenerator
+health: 280
+size: 2
+powerProduction: 13
+itemDuration: 290
+minItemEfficiency: 0.5
+itemflammability: false
+minLiquidEfficiency: 1.0
+
+hasItems: true
+hasLiquid: true
+
+liquidCapacity: 15
+itemCapacity: 10
+consumes:{
+  items:{
+    items:[
+    solidFuel/1
+    ]
+  }
+  liquid:{
+    liquid: water
+    amount: 0.2
+  }
+}
+category: power
+research:{
+  parent: steam-generator
+}
+requirements:[
+  steelPlate/80
+  ironIngot/80
+  graphite/70
+]
+}
