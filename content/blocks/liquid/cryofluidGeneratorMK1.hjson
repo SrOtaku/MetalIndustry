@@ -1,0 +1,35 @@
+{
+type: GenericCrafter
+size: 2
+health: 280
+itemCapacity: 10
+liquidCapactiy: 30
+craftTime: 90
+buildTime: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+outputsLiquid: true
+
+consumes:{
+  power: 1.2
+  items:{
+    items:[
+      titanium/2
+    ]
+  }
+  liquid:{
+    liquid: water
+    amount: 0.4
+  }
+}
+requirements:[
+  steelPlate/100
+  ironIngot/90
+  silicon/80
+]
+drawer: drawMixer
+category: crafting
+outputLiquid: cryofluid/60
+research: cryofluid-mixer
+}
