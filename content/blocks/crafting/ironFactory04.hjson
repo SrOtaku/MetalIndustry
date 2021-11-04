@@ -1,0 +1,46 @@
+{
+type: GenericSmelter
+health: 380
+size: 3
+itemsCapacity: 25
+
+hasItems: true
+hasPower: true
+hasLiquid: false
+
+craftTime: 140
+craftEffect: melting
+updateEffect: smeltsmoke
+buildTime: 60
+consumes:{
+  power: 1.5
+  items:{
+    items: [
+     graphite/5
+     coal/4
+    ]
+  }
+  liquid:{
+    liquid: slag
+    amount: 0.1
+    booster: false
+    optional: false
+  }
+  liquid:{
+    liquid: water
+    amount: 0.2
+    booster: false
+    optional: false
+  }
+}
+
+requirements:[
+  steelPlate/140
+  ironIngot/120
+  silicon/90
+  metaglass/80
+]
+category: crafting
+outputItem: solidFuel/10
+research: ironFactory03
+}

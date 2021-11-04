@@ -1,0 +1,32 @@
+{
+type: GenericCrafter
+health: 340
+size: 2
+buildTime: 120
+itemsCapacity: 18
+
+hasPower: true
+hasItems: true
+hasLiquid: false
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes:{
+  power: 0.7
+  items:{
+  items:[
+    ironIngot/2
+    solidFuel/2
+    ]
+  }
+}
+requirements:[
+  steelPlate/120
+  ironIngot/100
+  silicon/90
+  metaglass/80
+]
+category: crafting
+outputItem: ironBall/10
+research: ironFactory02
+}

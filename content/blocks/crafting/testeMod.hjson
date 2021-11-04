@@ -1,0 +1,40 @@
+{
+type: GenericCrafter
+name: Teste
+description: Utilizar scrap e slag transformando em minerio de ferro 
+health: 280
+size: 2
+itemCapacity: 10
+liquidCapacity: 12
+hasItems: true
+hasPower: true
+hasLiquid: true
+
+craftTime: 44
+craftEffect: melting
+updateEffect: smeltsmoke
+consumes:{
+  power: 1
+  items:{
+    items:[
+      scrap/2
+    ]
+  }
+  liquid:{
+    liquid: slag
+    amount: 0.1
+    optional: false
+    booster: false
+  }
+}
+requirements:[
+  silicon/90
+  metaglass/80
+  graphite/60
+]
+category: crafting
+outputItem: ironOre/1
+research:{
+  parent: graphite-press
+}
+}

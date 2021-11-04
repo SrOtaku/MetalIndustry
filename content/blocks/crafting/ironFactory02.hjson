@@ -1,0 +1,32 @@
+{
+type: GenericCrafter
+health: 280
+size: 3
+buildTime: 60
+buildCostMultiplier: 1.31
+itemsCapacity: 10
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 40
+updateEffect: smeltsmoke
+
+consumes:{
+  power: 0.6
+  items:{
+    items:[
+    ironIngot/2
+    graphite/2
+    coal/3
+    ]
+  }
+}
+requirements:[
+  ironIngot/125
+  silicon/120
+  metaglass/80
+]
+category: crafting
+outputItem: steelPlate/15
+research: silicon-smelter
+}
