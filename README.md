@@ -1,4 +1,4 @@
 # MetalIndustry
-• O mod ainda esta em faze <h4>BETA</h4>.
+• O mod ainda esta em faze <b>BETA</b>.
 • As atualizações serão semanalmentes.
 
