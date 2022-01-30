@@ -27,6 +27,6 @@ requirements:[
   metaglass/80
 ]
 category: crafting
-outputItem: steelPlate/15
+outputItem: steelPlate/6
 research: silicon-smelter
 }
