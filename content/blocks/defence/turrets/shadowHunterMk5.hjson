@@ -28,7 +28,7 @@ buildTime: 60
 //config-(projectiles)
 ammoPerShot: 4
 ammoTypes:{
-  ironBall:{
+  steelBullet:{
     type: BasicBulletType
     lifetime: 30
     damage: 45
