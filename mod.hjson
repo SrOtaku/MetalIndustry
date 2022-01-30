@@ -1,3 +1,4 @@
+{
 name: metalfactory
 author: "[blue]~(redgame69)~teus🇧🇷#4751[]"
 displayName: "[gray]Metal[] [yellow]FactoryMod[]"
@@ -29,3 +30,4 @@ description: "Bem vindo a indústria de metal
 version: "0.77.0(Beta)"
 minGameVersion: 126
 hidden: false
+}
