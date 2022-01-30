@@ -15,7 +15,7 @@ consumes:{
   power: 0.7
   items:{
   items:[
-    ironIngot/2
+    steelPlate/2
     solidFuel/2
     ]
   }
@@ -27,6 +27,6 @@ requirements:[
   metaglass/80
 ]
 category: crafting
-outputItem: ironBall/10
+outputItem: steelBullet/4
 research: ironFactory02
 }
