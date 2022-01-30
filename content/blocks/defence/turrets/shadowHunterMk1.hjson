@@ -14,7 +14,7 @@ ammoEjectBack: 8
 burstSpacing: 4
 shots: 8
 inaccuracy: 6
-shootSound: shoot
+shootSound: shotSilenc
 recoilAmount: 1.2
 
 targetAir: true
@@ -25,7 +25,7 @@ hasItems: true
 hasPower: false
 
 ammoTypes:{
-  ironBall:{
+  steelBullet:{
     type: BasicBulletType
     lifetime: 35
     damage: 21
@@ -36,7 +36,7 @@ ammoTypes:{
     height: 5.5
     width: 4
     ammoMultiplier: 2
-    sprite: metalfactory-ball01
+    sprite: metalfactory-basicBullet
     splashDamage: 10.5
     splashDuration: 30
     spsplashDamageRadius: 4
