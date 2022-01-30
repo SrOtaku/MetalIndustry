@@ -76,7 +76,7 @@ ammoTypes:{
     width: 6.2
     ammoMultiplier: 1
     lifetime: 30
-    sprite: metalfactory-bullet02
+    sprite: metalfactory-bulletBasic
     
     shootEffect: {
       type: ParticleEffect
