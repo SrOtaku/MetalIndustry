@@ -3,19 +3,19 @@ author: "[blue]~(redgame69)~teus🇧🇷#4751[]"
 displayName: "[gray]Metal[] [yellow]FactoryMod[]"
 description: "Bem vindo a indústria de metal
 
-- Novidades: 0.76.5 (30/01/22)
+- Novidades: 0.77.0(30/01/22)
 
 • Novos efeitos de audios para torres
 
 - Avisos: 
 
-• O mod ainda esta em fazer ALPHA.
+• O mod ainda esta em faze <b>BETA</b>.
 • As atualizações serão recorrentes. 
 • Eu estou planejando lançamento oficialmente no GitHub quando chegar na versão (Beta)
 
 • Não recomendo utilizar este mod no modo campanha
 
-- WARNING: 
+- <h4>WARNING</h4>: 
 
 • The mod has not been fully translated into English. I recommend using [Portuguese Brazilian]
 
@@ -27,6 +27,6 @@ description: "Bem vindo a indústria de metal
 - Duvidas ? Bugs ou Erros? Fale comigo! 
 - Meu GitHub:[stat]
   https://github.com/SrOtaku/ModNathilha[]"
-version: "0.76.5(Alpha-Public)"
+version: "0.77.0(Beta)"
 minGameVersion: 126
 hidden: false
