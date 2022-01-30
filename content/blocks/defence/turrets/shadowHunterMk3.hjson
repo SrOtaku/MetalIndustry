@@ -33,7 +33,7 @@ shootX: 6
 shootDelay: 2
 
 ammoTypes:{
-  ironBall:{
+  steelBullet:{
     type: ArtilleryBulletType
     damage: 64.5
     speed: 10.5
@@ -45,7 +45,7 @@ ammoTypes:{
     backColor: ff9128ac
     hitEffect: blastExplosion
     status: burning 
-    sprite: metalfactory-ball01
+    sprite: metalfactory-bulletBasic
     splashDamageRadius: 30
     splashDuration: 45
     splashDamage: 125
