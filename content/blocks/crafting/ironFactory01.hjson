@@ -29,5 +29,5 @@ requirements:[
 ]
 category: crafting
 outputItem: ironIngot/2
-research: testeMod
+research: ironOre
 }
