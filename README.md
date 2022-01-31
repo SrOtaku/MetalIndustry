@@ -6,6 +6,6 @@
 • Não recomendo utilizar no seu modo campanha.
 
 #License
-Tudo sobre a licença sobre o meu mod aque [COPYING](/COPYING)
+Tudo sobre a licença sobre o meu mod aque [COPYING](/LICENSE)
 
 
