@@ -5,7 +5,7 @@
 • As atualizações serão semanalmentes.<br>
 • Não recomendo utilizar no seu modo campanha.
 
-<h1 License />
+<h3 License </h3>
 • Tudo sobre a licença sobre o meu mod aque [LICENSE](/LICENSE).
 
 
