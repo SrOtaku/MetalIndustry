@@ -5,5 +5,5 @@
 • As atualizações serão semanalmentes.<br>
 • Não recomendo utilizar no seu modo campanha.
 
-   <h3> LICENSE: </h3>
+   <h3>LICENSE:</h3>
 • Todo o MetalIndustry está licenciado sobre [LICENSE](/COPYING)
