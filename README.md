@@ -5,3 +5,7 @@
 • As atualizações serão semanalmentes.<br>
 • Não recomendo utilizar no seu modo campanha.
 
+#License
+Tudo sobre a licença sobre o meu mod aque [COPYING](/COPYING)
+
+
