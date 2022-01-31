@@ -6,4 +6,4 @@
 • Não recomendo utilizar no seu modo campanha.
 
 # <h4>LICENSE:</h4>
-• Todo o MetalIndustry está licenciado sobre [LICENSE](/COPYING)
+• Todo o MetalIndustry está licenciado sobre [LICENSE](/LICENSE)
