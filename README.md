@@ -5,5 +5,5 @@
 • As atualizações serão semanalmentes.<br>
 • Não recomendo utilizar no seu modo campanha.
 
-# <h4>LICENSE:</h4>
+# <h4>Licença:</h4>
 • Todo o MetalIndustry está licenciado sobre [GNU General Public License v3.0](/LICENSE)
