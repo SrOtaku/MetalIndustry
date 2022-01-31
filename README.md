@@ -6,4 +6,4 @@
 • Não recomendo utilizar no seu modo campanha.
 
 # <h4>LICENSE:</h4>
-• Todo o MetalIndustry está licenciado sobre [LICENSE](/LICENSE)
+• Todo o MetalIndustry está licenciado sobre [GNU General Public License v3.0](/LICENSE)
