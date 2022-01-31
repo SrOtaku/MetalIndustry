@@ -6,6 +6,4 @@
 • Não recomendo utilizar no seu modo campanha.
 
    <h3> LICENSE: </h3>
-• Tudo sobre a licença sobre o meu mod aque [COPYING](/COPYING)
-
-
+• Todo o MetalIndustry está licenciado sobre [LICENSE](/COPYING)
