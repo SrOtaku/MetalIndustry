@@ -1,6 +1,7 @@
 # Metal Industry
  ![logo](github-pictures/logo.png)
-   <h4> Avisos: </h4>
+   <h3>Avisos:</h3>
+
 • O mod ainda esta em fazer <i><b>Beta</b></i>.<br>
 • Não recomendo utilizar <b>MetalIndustry</b> no seu modo campanha, poder ser instável.<br>
         Como eu sou iniciante em programação, o mod pode ser um pouco desequilibrado, pretendo ajustar corretamente pelo decorrer do tempo.  <h4>Licença:</h4>
