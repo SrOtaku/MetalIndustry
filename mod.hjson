@@ -1,7 +1,7 @@
 {
+displayName: "Metal Factory"
 name: metalfactory
 author: "[blue]~(redgame69)~teus🇧🇷#4751[]"
-displayName: "Metal Factory"
 description: "Bem vindo a indústria de metal
 
 - Novidades: 0.77.0(30/01/22)
@@ -28,5 +28,6 @@ description: "Bem vindo a indústria de metal
   https://github.com/SrOtaku/MetalIndustry[]"
 version: "0.77.0(Beta)"
 minGameVersion: 126
+java: true
 hidden: false
 }
