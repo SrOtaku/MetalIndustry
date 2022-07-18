@@ -1,33 +1,40 @@
 {
-displayName: "Metal Factory"
+displayName: "Metal Factory-MOD"
 name: metalfactory
-author: "[blue]~(redgame69)~teus🇧🇷#4751[]"
-description: "Bem vindo a indústria de metal
-
-- Novidades: 0.77.0(30/01/22)
+author: "~(redgame69)~teus#4751"
+description: "Bem vindo a Metal Factory!
+- Novidades: 0.77.0 (07/05/22)
 
 • Novos efeitos de audios para torres
+• Nova Torre
+• Sprites remasterizados
+• Alguns ajustes na programação
 
 - Avisos: 
 
-• O mod ainda esta em faze BETA.
-• As atualizações serão semanalmentes.
+• O mod ainda esta em fazer ALPHA.
+• As atualizações serão recorrentes. 
+• Eu estou planejando lançamento oficialmente no GitHub quando chegar na versão (Beta)
+• O mod foi programado em HJSON e JSON.
 • Não recomendo utilizar este mod no modo campanha
 
 - WARNING: 
 
+• Mod made in .HJSON and .JSON I don't use .JAVA
 • The mod has not been fully translated into English. I recommend using [Portuguese Brazilian]
 
 - Menções/Creditos:
   
-- Tradutores (pt-BR): RedGame69
-- Tradutores (in-EUA): LukeAlberti
+- Tradutores (pt-BR): LukeAlberti
+- Tradutores (in-EUA): RedGame69
 
 - Duvidas ? Bugs ou Erros? Fale comigo! 
 - Meu GitHub:[stat]
-  https://github.com/SrOtaku/MetalIndustry[]"
-version: "0.77.0(Beta)"
-minGameVersion: 126
-java: true
+  https://github.com/SrOtaku/ModNathilha[]"
+subtitle: "Industrial"
+version: "0.80.0(Alpha-Public)"
+minGameVersion: 136
+#Se funciona com java sim(true) ou não (false)
+java: false
 hidden: false
 }
