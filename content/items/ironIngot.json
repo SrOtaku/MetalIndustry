@@ -1,0 +1,11 @@
+color: 75788f
+cost: 1.1
+explosiveness: 0.0
+flammability: 0.0
+radioactivity: 0.0
+research:{
+  parent: ironFactory01
+  requirements:[
+    ironOre/5000
+  ]
+}
