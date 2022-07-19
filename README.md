@@ -1,5 +1,5 @@
 # Metal Industry
- <img src="github-pictures/logo.jpg" alt="120" width="200"/>
+ <img src="https://github.com/SrOtaku/MetalIndustry/blob/master-main/github-pictures/logo.png" alt=""width="200"/>
 
 <details><summary><h3>Atualizações:</h3></summary>
 <details> 
