@@ -22,7 +22,7 @@ O mod não está disponível para a versão: ```v136```
 ##
 
 <h3>Importante:</h3>
-• O mod ainda esta em fazer <i><b>Beta</b></i>.<br>
+• O mod ainda esta em fase <i><b>Beta</b></i>.<br>
 • Não recomendo utilizar <b>MetalIndustry</b> no seu modo campanha, poder ser instável.<br>
 • Como eu sou iniciante em programação, o mod pode estar um desequilibrado, pretendo ajustar pelo decorrer do tempo.
 <h3>Copyright:</h3>
