@@ -1,0 +1,13 @@
+{
+  "cost": 0.5,
+  "color": "bd5c30",
+  "buildable": false,
+  "explosiveness": 0.5,
+  "flammability": 1.8,
+  "objectives":[
+    {"requiriments":[
+        {"item": "pyratite", "amount": 1000}
+      ],
+    }
+  ],
+}

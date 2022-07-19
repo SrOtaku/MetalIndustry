@@ -1,0 +1,11 @@
+{  
+  "type": "Item",
+  "color": "75788f",
+  "cost": 1.0,
+  "objectives":[
+    {
+    "type": "Research",
+    "content": "ironOre"
+    }
+  ]
+}

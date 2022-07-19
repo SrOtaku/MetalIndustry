@@ -1,0 +1,15 @@
+{
+  "cost": 0.5,
+  "color": "2b6775",
+  "buildable": false,
+  "explosiveness": 0.1,
+  "flammability": 0.1,
+  
+  "objectives":[
+    {"type": "Research", "content": "titanium"},
+    {"requiriments": [ 
+        {"item": "titanium", "amount": 1000,} 
+      ],
+    }
+  ],
+}

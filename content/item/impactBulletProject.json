@@ -1,0 +1,14 @@
+{
+  "cost": 0.5,
+  "color": "6666666",
+  "buildable": false,
+  "explosiveness": 0.4,
+  "flammability": 0.4,
+  
+  "objectives": [
+      {"requiriments": [
+          {"item": "solidFuel", "amount": 1000}
+        ],
+      }
+  ],
+}
