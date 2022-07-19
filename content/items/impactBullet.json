@@ -1,15 +1,11 @@
-color: 525252
-cost: 1.2
-explosiveness: 1.5
-flammability: 1.5
-radioactivity: 0.0
-research:{
-  parent: ironFactory03
-  objectives:[
-    steelPlate
-  ]
-  requirements:[
-    ironIngot/5000
-    steelPlate/5000
-  ]
+{
+  "color": 525252,
+  "cost": 1.2,
+  "buildable": false,
+  "explosiveness": 0.5,
+  "flammability": 0.5,
+  
+  "objectives":[
+    {"research": "impactBulletProject"}
+  ],
 }
