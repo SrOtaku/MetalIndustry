@@ -1,15 +1,14 @@
-color: 9ca1b5
-cost: 1.4
-explosiveness: 0.0
-flammability: 0.0
-radioactivity: 0.0
-research:{
-  parent: ironFactory02
-  objectives:[ 
-    ironIngot
-  ]
-  requirements:[
-    ironIngot/10000
-    graphite/50000
-  ]
+{
+  "color": "9ca1b5",
+  "cost": 1.4,
+  "buildable": true,
+  "parent": "ironIngot",
+  
+  "objectives": [
+    {"type": "Research", "content": "ironIngot"},
+    {"requirements": [
+        {"item": "ironIngot", "amount": 1000,}
+      ],
+    }
+  ],
 }
