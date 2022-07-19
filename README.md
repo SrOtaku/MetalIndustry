@@ -1,5 +1,5 @@
 # Metal Industry
- ![logo](github-pictures/logo.png)
+ ![](github-pictures/logo.png)
 
 <details><summary><h3>Atualizações:</h3></summary>
 <details> 
