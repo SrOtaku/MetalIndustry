@@ -1,27 +1,27 @@
 {
-displayName: "Metal Factory-MOD"
+"displayName": "Metal Factory-MOD",
 #O nome do seu mod que aparecera no mindustry.
 
-name: metalfactory
+"subtitle": "v0.80.5(Alpha-Public) ",
+#O titulo que aparecerá a baixo do título do seu mod.
+
+"name": metalfactory,
 #"name" muito importante para a criação dos eu mod. Dica: sempre coloque em letras minúsculas, se for escrever separado coloque o ( - ) exemplo: metal-factory.
 
-author: "~(redgame69)~teus#4751"
+"author": "~(redgame69)~teus#4751",
 #author(Opcional). autor ja diz, o criador do mod.
 
-description: "Bem vindo a Metal Factory!
-- Novidades: 0.77.0 (07/05/22)
+"description": "Bem vindo a Metal Factory!
+- Novidades: 0.80.5 (19/06/22)
 
-• Novos efeitos de audios para torres
-• Nova Torre
-• Sprites remasterizados
-• Alguns ajustes na programação
+• Ajustes feito para a nova versão: [blue]v136[]
 
 - Avisos: 
 
 • O mod ainda esta em fazer ALPHA.
 • As atualizações serão recorrentes. 
 • Eu estou planejando lançamento oficialmente no GitHub quando chegar na versão (Beta)
-• O mod foi programado em HJSON e JSON.
+• O mod foi programado em [green].HJSON[] e em [red].JSON[].
 • Não recomendo utilizar este mod no modo campanha
 
 - WARNING: 
@@ -35,28 +35,29 @@ description: "Bem vindo a Metal Factory!
 - Tradutores (in-EUA): RedGame69
 
 - Duvidas ? Bugs ou Erros? Fale comigo! 
-- Meu GitHub:[stat]
-  https://github.com/SrOtaku/ModNathilha[]"
+- Meu GitHub: [stat]https://github.com/SrOtaku/ModNathilha []",
 #descricão do seu mod.
 
-version: "0.77.0(Alpha-Public)"
+"version": "0.80.5",
 #A versão do seu mod.
-
-subtitle: "0.77.0"
-#O titulo que aparecerá a baixo do título do seu mod. 
 
 # main:
 #Serve para direcionar o centro utilizando .java.
 
-repo: SrOtaku/MetalIndustry
+"repo": "SrOtaku/MetalIndustry",
 #Utilizado para GitHub.
 
-minGameVersion: 126
+minGameVersion: 136
 #Versão oficial do jogo(Lembrete: Sempre mantenha atualizado).
 
-java: false
+"hasScript": false,
+#Se utilizar script true/false.
+
+"hasJava": false,
 #Se funciona com java true/false.
 
-hidden: false
+"hidden": false
 #Se é compatível com o multiplayer (Recomendo deixalo desativado).
+"hiddenBrowser": true,
+#Se aparecera na internet true/false.
 }
