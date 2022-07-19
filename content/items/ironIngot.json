@@ -1,13 +1,11 @@
-{
-"color": "75788f",
-"cost": 1.0,
-"explosiveness": 0.0,
-"flammability": 0.0,
-"radioactivity": 0.0,
-"research":{ 
-  "parent": "ironOre",
-  "objectives":{
-    "research": "ironOre",
-  }
-},
+{  
+  "type": "Item",
+  "color": "75788f",
+  "cost": 1.0,
+  "objectives":[
+    {
+    "type": "Research",
+    "content": "ironOre"
+    }
+  ]
 }
