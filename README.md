@@ -7,8 +7,16 @@
     <b><i>v0.77.0 </i></b><br />
   </summary>
 <blockquote>
-19/05/20<br />
+<br>- Novidades: 0.77.0 (07/05/22)</br>
+
+##
+
+- Novos efeitos de audios para torres.
+- Nova Torres.
+- Sprites remasterizados.
+- Alguns ajustes na programação.
 - Pequenas correções.
+
 </blockquote>  
 </details>
 </details>
