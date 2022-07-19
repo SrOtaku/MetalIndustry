@@ -1,0 +1,40 @@
+{
+type: GenericCrafter
+health: 180
+size: 1
+
+hasItem: true
+hasPower: true
+hasLiquid: false
+
+itemCapacity: 10
+craftTime: 85
+craftEffect: melting
+
+consumes:{
+  power: 0.4
+  items:{
+    items:[
+      pyratite/1
+    ]
+  }
+}
+outputItem: flammBulletProject/1
+category: crafting
+objectives:[
+  {
+   parent: assemble04
+  }
+  {
+    requiriments:[
+      ironIngot/1500
+      steelPlate/1500
+      pyratite/1000
+    ]
+  }
+]
+requirements:[
+  ironIngot/30
+  steelPlate/25
+]
+}
