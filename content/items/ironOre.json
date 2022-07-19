@@ -1,0 +1,12 @@
+hardness: 5
+cost: 0.5
+color: b2c5d1
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+research:{
+  parent: scrap
+  requirements:[
+    scrap/10000
+  ]
+}
