@@ -45,16 +45,16 @@ version: "0.77.0(Alpha-Public)"
 subtitle: "0.77.0"
 #O titulo que aparecerá a baixo do título do seu mod. 
 
-main: metalIndustryMod.Main
-#Serve para direcionar a parte central do mod.
+# main:
+#Serve para direcionar o centro utilizando .java.
 
 repo: SrOtaku/MetalIndustry
 #Utilizado para GitHub.
 
-minGameVersion: 136
+minGameVersion: 126
 #Versão oficial do jogo(Lembrete: Sempre mantenha atualizado).
 
-java: true
+java: false
 #Se funciona com java true/false.
 
 hidden: false
