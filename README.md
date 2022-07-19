@@ -1,4 +1,4 @@
-# <center>Metal Industry</center>
+<center><b />Metal Industry</center>
  <img src="https://github.com/SrOtaku/MetalIndustry/blob/master-main/github-pictures/logo.png" alt="Metal Industry" width="320" height="290"/>
 
 <details><summary><h3>Atualizações:</h3></summary>
