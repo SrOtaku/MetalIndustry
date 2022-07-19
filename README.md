@@ -1,5 +1,5 @@
 # Metal Industry
- ![](github-pictures/logo.png)
+ <img src="github-pictures/logo.jpg" alt="120" width="200"/>
 
 <details><summary><h3>Atualizações:</h3></summary>
 <details> 
