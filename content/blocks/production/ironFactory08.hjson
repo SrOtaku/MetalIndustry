@@ -1,0 +1,46 @@
+{
+type: GenericSmelter
+health: 380
+size: 3
+itemsCapacity: 10
+hasItems: true
+hasPower: true
+hasLiquid: false
+
+craftTime: 60
+craftEffect: melting
+updateEffect: smeltsmoke
+buildTime: 60
+consumes:{
+  power: 4.5//300W Cust unid energy
+  items:{
+    items: [
+     graphite/4
+     coal/4
+    ]
+  }
+  liquid:{
+    liquid: water
+    amount: 0.2
+    booster: false
+    optional: false
+  }
+}
+
+requirements:[
+  steelPlate/120
+  ironIngot/120
+  metaglass/80
+]
+category: crafting
+outputItem: solidFuel/4
+research: silicon-smelter
+research:{
+  parent: silicon-smelter
+  requirements:[
+    ironIngot/3500
+    steelPlate/3500
+    metaglass/3500
+  ]
+}
+}
