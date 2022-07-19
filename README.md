@@ -17,7 +17,9 @@
 ##
 
 ### Aviso:
-O mod não está disponível para a <b><i />versão: 136</b>
+O mod não está disponível para a versão: ```v136```
+
+##
 
 <h3>Importante:</h3>
 • O mod ainda esta em fazer <i><b>Beta</b></i>.<br>
