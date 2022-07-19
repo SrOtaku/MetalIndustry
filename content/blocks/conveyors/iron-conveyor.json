@@ -6,11 +6,18 @@
 "itemCapacity": 14,
 "displayedSpeed": 20, //A informações da velocidade de movimento do item.
 "speed": 0.20,  //O valor da movimentação do item.
+"floating": "true", //Se pode flutuar na água ou não.
 "requirements": [
   {"item": "ironIngot", "amount": 1},
-	{"item": "steelPlate", "amount": 1},
-	{"item": "titanium", "amount": 1}
+	{"item": "steelPlate", "amount": 1}
 	],
 "category": "distribution",
 "research": "titanium-conveyor",
+"research": {
+  "parent": "titanium-conveyor",
+  "requirements":[
+    {"item": "steelPlate", "amount": 200,},
+    {"item": "ironIngot", "amount": 200,}
+  ]
+}
 }
