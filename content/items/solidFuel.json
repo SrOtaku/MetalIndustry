@@ -1,0 +1,12 @@
+color: 636369
+cost: 0.5
+explosiveness: 0.5
+flammability: 1.0
+radioactivity: 0.0
+research:{
+  parent: ironFactory04
+  objectives:["steelPlate","coal","water"]
+  requirements:[
+    coal/8000
+  ]
+}
