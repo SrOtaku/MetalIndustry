@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Metal Industry</h1>
-<p style="text-aling:center;"><img src="https://github.com/SrOtaku/MetalIndustry/blob/master-main/github-pictures/logo.png" alt="Metal Industry" atl="Metal Industry" /></p>
+<p style="text-aling:center;"><img src="https://github.com/SrOtaku/MetalIndustry/blob/master-main/github-pictures/logo.png" alt="Metal Industry" atl="Metal Industry" width="90%" hight="90%" /></p>
 <details><summary><h3>Atualizações:</h3></summary>
 <details> 
   <summary>
