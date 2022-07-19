@@ -1,0 +1,19 @@
+{
+"type": "Junction",
+"health": 450,
+"speed": 5,
+"capacity": 1,
+"bulidCostMultiplier": 6.5,
+"requirements": [
+  {"item": "steelPlate", "amount": 4},
+  {"item": "ironIngot", "amount": 4}
+],
+"category": "distribution",
+"research": {
+  "parent": "iron-conveyor",
+  "requirements":[
+    {"item": "ironIngot", "amount": 150,},
+    {"item": "steelPlate", "amount": 150,}
+  ],
+}
+}
