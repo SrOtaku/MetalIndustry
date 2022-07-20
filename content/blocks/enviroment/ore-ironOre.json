@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "itemDrop": "ironOre",
+  "mapColor": "#b2c5d1",
+  "hasColor": true,
+  "variants": 4,
+  "playerUnmineable": false,
+}
