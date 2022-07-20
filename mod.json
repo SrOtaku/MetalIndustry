@@ -58,6 +58,6 @@ minGameVersion: 136
 
 "hidden": false
 #Se é compatível com o multiplayer (Recomendo deixalo desativado).
-"hiddenBrowser": true,
+"hidenBrowser": true,
 #Se aparecera na internet true/false.
 }
