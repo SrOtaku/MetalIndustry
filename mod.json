@@ -8,13 +8,13 @@
 "subtitle": "v0.80.5(Alpha-Public) ",
 // O titulo que aparecerá a baixo do título do seu mod.
 
-"name": metalfactory,
+"name":"metalfactory",
 // "name" muito importante para a criação dos eu mod. Dica: sempre coloque em letras minúsculas, se for escrever separado coloque o ( - ) exemplo: metal-factory.
 
 "author": "~(redgame69)~teus#4751",
 // author(Opcional). autor ja diz, o criador do mod.
 
-"description":"Bem vindo a Metal Factory!"
+"description":"Bem vindo a Metal Factory!",
 
 "version": "0.80.5",
 // A versão do seu mod.
@@ -30,4 +30,4 @@
 
 "hidden": false
 // Se é compatível com o multiplayer (Recomendo deixalo desativado).
-},
+}
