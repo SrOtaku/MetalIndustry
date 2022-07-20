@@ -1,0 +1,41 @@
+{
+type: GenericCrafter
+health: 380
+size: 2
+itemCapacity: 10
+hasItems: true
+hasPower: false
+hasLiquid: true
+craftTime: 90
+buildTime: 60
+updateEffect: smeltsmoke
+
+consumes:{
+  items:{
+    items:[
+      coal/3
+    ]
+  }
+}
+requirements:[
+  steelPlate/90
+  ironIngot/80
+  silicon/60
+]
+category: crafting
+outputItem: graphite/3
+parent: multi-press
+  objectives: [
+    {
+      requirements:[
+        ironIngot/2000
+        steelPlate/1500
+        silicon/1000
+      ]
+    }
+    {
+      type: Research
+      content: multi-press
+    }
+  ]
+}
