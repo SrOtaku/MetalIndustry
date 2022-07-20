@@ -1,0 +1,15 @@
+{
+  "cost": 0.5,
+  "color": "b2c6d2",
+  "buildable": false,
+  "explosiveness": 0.0,
+  "flammability": 0.0,
+  "radioactivity": 0.0,
+  
+  "objectives":[
+    {"requiriments":[
+        {"item": "steelPlate", "amount": 1000}
+      ],
+    }
+  ],
+}

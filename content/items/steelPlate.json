@@ -1,0 +1,14 @@
+{
+  "color": "9ca1b5",
+  "cost": 1.4,
+  "buildable": true,
+  "parent": "ironIngot",
+  
+  "objectives": [
+    {"type": "Research", "content": "ironIngot"},
+    {"requirements": [
+        {"item": "ironIngot", "amount": 1000,}
+      ],
+    }
+  ],
+}
