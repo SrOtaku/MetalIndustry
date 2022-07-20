@@ -1,0 +1,179 @@
+{
+type: ItemTurret
+health: 1250
+size: 2
+range: 300
+rotateSpeed: 15
+reloadTime: 25
+cooldown: 0.06
+restitution: 0.06
+liquidCapacity: 22
+itemCapacity: 30
+maxAmmo: 15
+coolantMultiplier: 50
+spread: 1
+shootCone: 0.08
+inaccuracy: 15
+recoilAmount: 2
+shootSound: shotgun
+//(false/true)
+targetGround: false
+targetAir: true
+hasItems: true
+hasPower: false
+hasLiquid: true
+rotate: true
+buildTime: 60
+//config-(projectiles)
+shots: 8
+bullet: 8
+ammoPerShot: 4
+ammoTypes:{
+  impactBullet:{
+    type: BasicBulletType
+    lifetime: 30
+    damage: 20
+    speed: 11
+    height: 10
+    width: 8
+    frontColor: ffcb80
+    backColor: ffae3a
+    ammoMultiplier: 4
+    homingSpeed: 1.5
+    homingPower: 60
+    homingRange: 120
+    sprite: metalfactory-bulletBasic
+    lifetime: 30
+    hitEffect: blastExplosion
+    splashDamage: 90
+    statusDuration: 60
+    splashDamageRadius: 25
+    status: burning
+    collidesAir: true
+    collidesGround: false
+    
+    shootEffect:{
+      type: ParticleEffect
+      particles: 2
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 5
+      sizeTo: 1
+      interp: circleIn
+    }
+  }
+  drillingBullet:{
+    type: BasicBulletType
+    damage: 16
+    speed: 6
+    height: 10
+    width: 7
+    frontColor: ffcb80
+    backColor: ffae3a
+    lifetime: 30
+    impact: false
+    hitEffect: blastExplosion
+    pierce: true
+    ammoMultiplier: 2
+    pierceBuilding: true
+    pierceCap: 20
+    sprite: metalfactory-pierceBig
+  }
+  thorium:{
+    type: BasicBulletType
+    damage: 10
+    speed: 11
+    frontColor: ffcb80
+    backColor: ffae3a
+    height: 12
+    width: 7
+    ammoMultiplier: 4
+    lifetime: 30
+    splashDamageRadius: 15
+    splashDamage: 55
+    hitEffect: blastExplosion
+    collidesAir: true
+    collidesGround: false
+    pierce: true
+    
+      shootEffect:{
+        type: ParticleEffect
+        particles: 1
+        lifetime: 30
+        region: metalfactory-effect01
+        sizeFrom: 4
+        sizeTo: 1
+        interp: circleIn
+      }
+  }
+  metaglass:{
+    type: BasicBulletType
+    lifetime: 30
+    damage: 3
+    speed: 11
+    splashDamageRadius: 15
+    splashDamage: 34
+    hitEffect: blastExplosion
+    height: 11
+    width: 7
+    frontColor: ffcb80
+    backColor: ffae3a
+    ammoMultiplier: 3
+    
+    shootEffect:{
+      type: ParticleEffect
+      particles: 1
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 2
+      sizeTo: 0.5
+      interp: circleIn
+    }
+  }
+  lead:{
+    type: BasicBulletType
+    damage: 4
+    speed: 11
+    sprite: metalfactory-bulletBasic
+    splashDamageRadius: 10
+    splashDamage: 40
+    hitEffect: blastExplosion
+    frontColor: ffcb80
+    backColor: ffae3a
+    height: 13
+    width: 7
+    ammoMultiplier: 2
+    shootEffect:{
+      type: ParticleEffect
+      particles: 1
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 2
+      sizeTo: 0.5
+      interp: circleIn
+    }
+  }
+}
+consumes:{
+  liquid:{
+    liquid: water
+    amount: 0.1
+    booster: true
+    optional: true
+  }
+}
+requirements:[
+  ironIngot/90
+  steelPlate/80
+  graphite/40
+]
+category: turret
+research:{
+  parent: scatter
+  requirements:[
+    ironIngot/2800
+    steelPlate/2700
+    graphite/2500
+  ]
+}
+}

@@ -1,0 +1,171 @@
+{
+details: Morteiro de alta escala  mais utilizado para destruir enimigos mais lento mais com alta resistência, também serve contra bases enimigas
+type: ItemTurret
+health: 1800
+size: 3
+range: 360
+rotateSpeed: 4
+reload: 85
+cooldown: 0.03
+restitution: 0.03
+itemCapacity: 40
+maxAmmo: 20
+inaccuracy: 0.5
+burstSpacing: 2
+buildTime: 60 //Marca quantos segundo vai ser 1 tick
+recoilAmount: 3
+ammoEjectBack: 2
+ammoUseEffect: casing3Double
+
+shootSound: shootArtillery
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+shootShake: 0.5
+alternate: true
+autoTarget: true
+targetAir: false
+targetGround: true
+hasItems: true
+hasPower: false
+hasLiquid: true
+mirror: false
+shots: 4
+shootDelay: 4
+shootCone: 10
+ammoTypes:{
+  impactBullet:{
+    type: ArtilleryBulletType
+    damage: 0
+    speed: 3.5
+    lifetime: 120
+    height: 18
+    width: 14
+    frontColor: ffcb80
+    backColor: ffae3a
+    hitEffect: blastExplosion
+    status: blasted 
+    sprite: metalfactory-bulletBasic
+    splashDamageRadius: 38// 40 = 5.0 blocks//New: 20 = 2.5 [✓]
+    splashDuration: 30
+    splashDamage: 125
+    
+    incendChance: 2
+    incendSpread: 10
+    
+    impact: true
+    pierce: false
+    pierceBuilding: true
+    collidesAir: false
+    collidesTitles: false
+    makeFire: true
+    knockBack: 2.0
+    
+    trailFade:{
+      trailInterval: 0  //Intervalos entre as imagens do trail
+      trailEffect: incendTrail
+      trailMult: 20
+      trailSize: 8
+      trailLength: 22
+      trailColor: ffc119
+    }
+    fragBullets: 2
+    fragBullet:{
+      type: ArtilleryBulletType
+      damage: 60
+      speed: 1.2
+      height: 4
+      width: 7
+      lifetime: 30
+      homingPower: 20
+      homingRange: 80
+      homingDalay: 0
+      homingInterval: 1
+      hitEffect: blastExplosion
+      splashDamage: 110
+      splashDuration: 74
+      splashDamageRadius: 16
+      sprite: metalfactory-fragmentBasic
+    }
+    ammoMultiplier: 4
+  }
+  
+  thorium:{
+    type: ArtilleryBulletType
+    damage: 0
+    speed: 3.5
+    lifetime: 120
+    frontColor: ffcb80
+    backColor: ffae3a
+    height: 12
+    width: 7
+    ammoMultiplier: 4
+    
+    collidesTitles: false
+    collidesAir: false
+    pierce: true
+    pierceBuilding: true
+    
+    splashDamageRadius: 19
+    splashDuration: 30
+    splashDamage: 55
+    knockBack: 0.8
+    
+    hitEffect: blastExplosion
+    trailFade:{
+      trailInterval: 0
+      trailEffect: incendTrail
+      trailMult: 6
+      trailSize: 10
+      trailLength: 25
+      trailColor: ffc119
+    }
+  }
+  graphite:{
+    type: ArtilleryBulletType
+    damage: 0
+    speed: 3.5
+    lifetime: 120
+    height: 12
+    width: 7
+    frontColor: ffcb80
+    backColor: ffae3a
+    ammoMultiplier: 2
+    splashDamageRadius: 19
+    splashDuration: 30
+    splashDamage: 38
+    hitEffect: blastExplosion
+    knockBack: 0.8
+
+    trailFade:{
+      trailInterval: 0
+      trailEffect: incendTrail
+      trailMult: 6
+      trailSize: 10
+      trailLength: 25
+      trailColor: ffc119
+    }
+  }
+}
+comsumes:{
+  liquid:{
+  loquid: water
+  amount: 0.1
+  booster: true
+  optional: true
+  }
+}
+requirements:[
+  steelPlate/125
+  ironIngot/120
+  silicon/80
+]
+category: turret
+research:{
+  parent: hail
+  requirements:[
+    ironIngot/4500
+    steelPlate/4500
+    silicon/3500
+  ]
+}
+}

@@ -1,0 +1,192 @@
+{
+type: ItemTurret
+//characteristics
+health: 1250
+size: 2
+range: 210
+reload: 15
+cooldawn: 0.02
+restitution: 0.02
+rotatespeed: 8
+recoilAmount: 3
+itemCapacity: 35
+maxAmmo: 35
+liquidCapacity: 12
+ammoEjectBack: 1
+ammoUseEffect: casing2
+shots: 2
+inaccuracy: 2
+//building-Time
+buildTime: 60
+//specialSettings-true/false
+rotate: true
+hasItems: true
+hasPower: false
+hasLiquid: true
+targetGround: true
+targetAir: false
+mirror: true
+flipSprite: true
+//sounds
+shootSound: shotMingun02
+//effects
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+//config-bulletsTypes
+ammoTypes:{
+  impactBullet:{
+    type: BasicBulletType
+    damage: 30
+    speed: 7
+    lifetime: 30
+    hitSize: 10 // tamanho do efeito em área
+    height: 9 // largura
+    width: 7
+    frontColor: ffcb80
+    backColor: ffae3a
+    knockback: 1.5
+    ammoMultiplier: 2
+    splashDamageRadius: 30
+    splashDuration: 60
+    splashDamage: 60
+    sprite: metalfactory-bulletBasic
+    hitEffect: blastExplosion
+    status: blasted
+    impact: true
+    
+    incendChance: 3
+    incendSpread: 8
+    
+    shootEffect:{
+      type: ParticleEffect
+      particles: 2
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 5
+      sizeTo: 1
+      interp: circleIn
+    }
+    fragBullets: 3
+    fragBullet:{
+      type: BasicBulletType
+      speed: 1.5
+      lifetime: 30
+      height: 6
+      width: 4
+      sprite: metalfactory-fragmentBasic
+      hitEffect: blastExplosion
+      splashDamageRadius: 20
+      splashDuration: 30
+      splashDamage: 42
+      homingPower: 30
+      homingRange: 60
+      homingDalay: 0
+    }
+  }
+  drillingBullet:{
+    type: BasicBulletType
+    damage: 25
+    speed: 7
+    lifetime: 30
+    height: 8
+    width: 4
+    frontColor: ffcb80
+    backColor: ffae3a
+    impact: false
+    pierce: true
+    ammoMultiplier: 2
+    pierceBuilding: true
+    pierceCap: 20
+    sprite: metalfactory-pierceBig
+  }
+  flammBullet:{
+    type: BasicBulletType
+    damage: 0
+    speed: 7
+    knockback: 0.5
+    height: 9
+    width: 6
+    lifetime: 35
+    status: burning
+    splashDamage: 50
+    splashDamageRadius: 42
+    statusDuration: 680
+    sprite: metalfactory-flamm03
+    hitEffect: blastExplosion
+    hitSize: 35
+    ammoMultiplier: 4
+  }
+  thorium:{
+    type: BasicBulletType
+    damage: 38
+    speed: 7
+    lifetime: 30
+    height: 9
+    width: 8
+    frontColor: ffcb80
+    backColor: ffae3a
+    ammoMultiplier: 2
+    pierce: true
+    pierceCap: 2
+    impact: true
+    sprite: metalfactory-pierceBig
+    hitEffect: blastExplosion
+    
+    shootEffect:{
+      type: ParticleEffect
+      particles: 1
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 5
+      sizeTo: 1
+      interp: circleIn
+    }
+  }
+  graphite:{
+    type: BasicBulletType
+    damage: 20
+    speed: 7
+    height: 9
+    width: 8
+    frontColor: ffcb80
+    backColor: ffae3a
+    ammoMultiplier: 2
+    
+    shootEffect:{
+      type: ParticleEffect
+      particles: 1
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 5
+      sizeTo: 1
+      interp: circleIn
+    }
+  }
+}
+//consumes-booster/necessity
+consumes:{
+  liquid:{
+    liquid: water
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+//requirements-build
+requirements:[
+  steelPlate/100
+  ironIngot/90
+]
+category: turret
+research:{
+  parent: shadowHunterMk1
+  objectives:[
+    shadowHunterMk1
+  ]
+  requirements:[
+    ironIngot/3500
+    steelPlate/3800
+    silicon/2800
+  ]
+}
+}

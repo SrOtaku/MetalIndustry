@@ -1,0 +1,142 @@
+{
+type: ItemTurret
+health: 380
+size: 1
+range: 260
+rotateSpeed: 4.5
+reloadTime: 80
+cooldown: 0.04
+restitution: 0.04
+itemCapacity: 20
+maxAmmo: 5
+shootDelay: 0
+
+buildTime: 60
+
+shootSound: bang
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+smokeShake: 4
+
+hasItem: true
+hasLiquid: true
+hasPower: false
+mirror: false
+targetGround: true
+targetAir: false
+
+ammoTypes:{
+  impactBullet:{
+    type: ArtilleryBulletType
+    damage: 0
+    lifetime: 80
+    speed: 3
+    limitRange: 0
+    inaccuracy: 3
+    height: 16
+    width: 19
+    collidesTitles: false
+    ammoMultiplier: 4
+    frontColor: ffcb80
+    backColor: ffae3a
+    hitEffect: blastExplosion
+    status: blasted 
+    sprite: metalfactory-bulletBasic
+    splashDamageRadius: 36
+      // 1 = 0.1 blocks// 8 = 1.0 block// 9 = 1.1 block// 10 = 1.2 block...
+    splashDuration: 120
+    splashDamage: 45
+    splashSize: 30
+    shootCone: 10
+    knockback: 1.8
+    
+    fragBullets: 3
+    fragBullet:{
+      damage: 10
+      lifetime: 20
+      height: 7
+      width: 5
+      splashDamageRadius: 30
+      splashDuration: 60
+      splashDamage: 20
+      sprite: metalfactory-fragmentBasic
+    }
+  }
+  flammBullet:{
+    type: ArtilleryBulletType
+    knockBack: 0.8
+    damage: 0
+    lifetime: 80
+    limitRange: 0
+    inaccuracy: 5
+    speed: 3
+    height: 7
+    width: 8
+    frontColor: ffcb80
+    backColor: ffae3a
+    collidesTitles: false
+    collidesAir: false
+    status: burning
+    incendChance: 100
+    incendSpread: 50
+    
+    splashDamage: 32
+    splashDamageRadius: 46
+    ammoMultiplier: 3
+      // 40 = 5.0 Blocks away
+    shootCone: 10
+    knockback: 1.2
+  }
+  graphite:{
+    type: ArtilleryBulletType
+    damage: 0
+    lifetime: 80
+    speed: 3
+    height: 12
+    width: 8
+    frontColor: ffe0b3
+    backColor: ffc165
+    collidesTitles: false
+    collidesAir: false
+    hitEffect: blastExplosion
+    splashDamage: 33
+    splashDamageRadius: 19
+    ammoMultiplier: 2
+    knockBack: 0.8
+  }
+  thorium:{
+    type: ArtilleryBulletType
+    damage: 44
+    speed: 3
+    height: 12
+    width: 8
+    frontColor: ffe0b3
+    backColor: ffc165
+    collidesTitles: false
+    collidesAir: false
+    hitEffect: blastExplosion
+    ammoMultiplier: 4
+    knockBack: 0.8
+  }
+}
+consumes:{
+  liquid:{
+  liquid: water
+  amount: 0.1
+  booster: true
+  optional: true
+  }
+}
+requirements:[
+  ironIngot/70
+  steelPlate/40
+]
+category: turret
+research: {
+  parent: hail
+  requirements:[
+    ironIngot/1500
+    steelPlate/1500
+  ]
+}
+}

@@ -1,0 +1,144 @@
+{
+type: itemTurret
+health: 280
+size: 1
+range: 120
+rotateSpeed: 9
+reloadTime: 30
+cooldown: 0.20
+restitution: 0.20
+itemCapacity: 30
+maxAmmo: 30
+liquidCapacity: 10
+coolantMultiplier: 50
+ammoEjectBack: 8
+burstSpacing: 4
+shots: 8
+inaccuracy: 6
+shootSound: shotSilenc
+recoilAmount: 1.2
+
+targetAir: true
+targetGround: true
+rotate: true
+hasLiquid: true
+hasItems: true
+hasPower: false
+
+ammoTypes:{
+  impactBullet:{
+    type: BasicBulletType
+    lifetime: 35
+    damage: 21
+    speed: 4
+    frontColor: ffcb80
+    backColor: ffae3a
+    shootY: 4
+    height: 5.5
+    width: 4
+    ammoMultiplier: 2
+    sprite: metalfactory-bulletBasic
+    splashDamage: 10.5
+    splashDuration: 30
+    spsplashDamageRadius: 4
+    pierce: false
+    
+    shootEffect: {
+      type: ParticleEffect
+      particles: 3
+      lifetime: 20
+      region: metalfactory-effect01
+      sizeFrom: 2
+      sizeTo: 0.5
+      interp: circleIn
+    }
+    impact: true
+    fragBullets: 2
+    fragBullet:{
+      type: BasicBulletType
+      damage: 25.5
+      height: 6
+      width: 2
+      lifetime: 30
+      speed: 0.40
+      splashDamage: 14.55
+      splashDuration: 25
+      splashDamageRadius: 2.5
+    }
+  }
+  drillingBullet:{
+    type: BasicBulletType
+    damage: 18
+    speed: 6
+    heigth: 8
+    width: 6
+    frontColor: ffcb80
+    backColor: ffae3a
+    ammoMultiplier: 2
+    lifetime: 35
+    impact: false
+    hitEffect: blastExplosion
+    sprite: metalfactory-pierceBig
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 20
+  }
+  silicon:{
+    type: BasicBulletType
+    damage: 14
+    speed: 4
+    frontColor: ffcb80
+    backColor: ffae3a
+    height: 10
+    width: 7
+    ammoMultiplier: 4
+    lifetime: 30
+    homingPower: 30
+    homingRange: 140
+  }
+  copper:{
+    damage: 8.5
+    speed: 4
+    frontColor: fffd97
+    backColor: ffe358
+    height: 12
+    width: 7
+    ammoMultiplier: 2
+    lifetime: 30
+    
+    shootEffect:{
+      type: ParticleEffect
+      eparticles: 4
+      lifetime: 30
+      region: metalfactory-effect01
+      sizeFrom: 3
+      sizeTo: 0.5
+      interp: circleIn
+    }
+  }
+}
+consumes:{
+  liquid:{
+    liquid: water
+    amount: 0.1
+    booster: true
+    optional: true
+  }
+}
+requirements:[
+  ironIngot/25
+  steelPlate/25
+  copper/25
+]
+category: turret
+parent: duo
+objectives:[
+  {
+    requirements:[
+      ironIngot/2500
+      steelPlate/2000
+      copper/2500
+    ]
+  }
+]
+}

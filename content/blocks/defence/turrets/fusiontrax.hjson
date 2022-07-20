@@ -1,0 +1,43 @@
+{
+type: TractorBeamTurret
+health: 280
+size: 2
+damage: 4.5
+range: 280
+scaledForce: 0
+rotateSpeed: 8
+rotate: false
+reloadTime: 0.2
+cooldown: 0.2
+heatColor: ff0000
+shootSound: beamLaserLoop2x
+force: 0
+hasPower: true
+targetAir: true
+targetGround: true
+
+shootType:{
+  Width: 3
+  lenght: 2
+  incendChance: 10
+  ammoMultiplier: 1
+}
+
+consumes:{
+  power: 1.4
+}
+requirements:[
+ steelPlate/40
+ ironIngot/30
+ metaglass/25
+]
+category: turret
+research:{
+  parent: duo
+  requirements:[
+    ironIngot/3200
+    steelPlate/3000
+    metaglass/2000
+  ]
+}
+}
