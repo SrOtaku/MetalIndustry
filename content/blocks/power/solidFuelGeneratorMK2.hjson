@@ -1,0 +1,52 @@
+{
+type: NuclearReactor
+health: 850
+size: 3
+powerProduction: 35
+itemDuration: 240
+buildTime: 90
+heating: 0.001
+itemflammability: false
+hasItems: true
+hasLiquid: true
+
+liquidCapacity: 20
+itemCapacity: 20
+baseExplosiveness: 5
+
+ambientSound: smelter
+ambientSoundVolume: 0.6
+
+consumes:{
+  items:{
+    items:[
+    solidFuel/4
+    ]
+  }
+  liquid:{
+    liquid: cryofluid
+    amount: 0.4
+  }
+}
+requirements:[
+  steelPlate/235
+  ironIngot/200
+  graphite/120
+]
+category: power
+research: thorium-reactor
+parent: solidFuelGenerator
+  objectives:[
+    { 
+      requirements:[
+        ironIngot/6000
+        steelPlate/4000
+        graphite/2500
+      ]
+    }
+    {
+      type: Research
+      content: solidFuelGenerator
+    }
+  ]
+}

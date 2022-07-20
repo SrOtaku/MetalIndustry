@@ -1,0 +1,52 @@
+{
+type: NuclearReactor
+health: 280
+size: 2
+powerProduction: 15//Gerando 780 unidade de energia
+itemDuration: 190
+heating: 0.0005
+
+itemflammability: true
+hasItems: true
+hasLiquid: true
+
+liquidCapacity: 14
+itemCapacity: 10
+baseExplosiveness: 3.5
+
+ambientSound: smelter
+ambientSoundVolume: 0.5
+
+consumes:{
+  items:{
+    items:[
+    solidFuel/2
+    ]
+  }
+  liquid:{
+    liquid: water
+    amount: 0.2
+  }
+}
+requirements:[
+  ironIngot/80
+  steelPlate/80
+  graphite/70
+]
+category: power
+research: thorium-reactor
+parent: steam-generator
+  objectives:[
+    {
+      requirements:[
+        ironIngot/3500
+        steelPlate/3000
+        graphite/2500
+      ]
+    }
+    {
+      type: Research
+      content: steam-generator
+    }
+  ]
+}
