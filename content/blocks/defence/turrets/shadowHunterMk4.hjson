@@ -10,8 +10,8 @@ targetGround: true
 hasPower: true
 autoTarget: true
 reload: 180.0
-cooldownTime: 1.5
-restitution: 1.5 //Tempo de recarga do recoilAmount:
+cooldown: 0.02
+restitution: 0.02 //Tempo de recarga do recoilAmount:
 maxRange: 265
 shootSound: laserblast
 chargeSound: lasercharge2
