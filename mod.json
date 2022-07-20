@@ -1,7 +1,4 @@
 {
-"repo": "SrOtaku/MetalIndustry",
-// Utilizado para GitHub.
-
 "displayName": "Metal Factory-MOD",
 // O nome do seu mod que aparecera no mindustry.
 
@@ -15,19 +12,17 @@
 // author(Opcional). autor ja diz, o criador do mod.
 
 "description":"Bem vindo a Metal Factory!",
+// Descrição do seu mod.
 
 "version": "0.80.5",
 // A versão do seu mod.
 
-// Serve para direcionar o centro utilizando .java.
-
-"minGameVersion": 136,
-// Versão oficial do jogo(Lembrete: Sempre mantenha atualizado).
-
-
 "java": false,
 // Se funciona com java true/false.
 
-"hidden": false
+"hidden": false,
 // Se é compatível com o multiplayer (Recomendo deixalo desativado).
+
+"minGameVersion": 136,
+// Versão oficial do jogo(Lembrete: Sempre mantenha atualizado).
 }
