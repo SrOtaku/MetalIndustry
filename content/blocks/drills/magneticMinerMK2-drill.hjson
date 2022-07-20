@@ -1,0 +1,50 @@
+{
+type: Drill
+//características
+health: 850
+size: 3
+tier: 6
+itemCapacity: 30
+liquidCapacity: 25
+drillTime: 85
+rotateSpeed: 8.5
+hardnessDrillMultiplier: 10
+baseEfficiency: 2.5
+//time-building
+buildTime: 60
+//efeitos
+heatColor: ff6802
+updateEffect: pulverizeMedium
+//(false/true)
+drawRim: true
+drawMineItem: true
+hasPower: true
+hasLiquid: true
+floating: true
+//consumíveis
+consumes:{
+  power: 3.8334
+  liquid:{
+    liquid: water
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+liquidBoostIntensity: 1.9
+requirements:[
+  steelPlate/200
+  ironIngot/150
+  graphite/120
+]
+ambientSound: drill
+ambientSoundVolume: 1.5
+category: production
+research:{
+  parent: magneticMiner-drill
+  requirements:[
+    steelPlate/35000
+    steelPlate/35000
+  ]
+}
+}
