@@ -6,13 +6,34 @@
     <b>Atualizações</b>
   </summary>
 
+##
+
+<details>
+  <summary>
+    <b><i /> v0.80.0(aplha-public) </b>
+  </summary>
+
+<blockquote>
+<br>- Novidades: 20/06/22
+
+##
+
+  - Adpatado para a nova versão: ```136```.
+  - Algumas correções.
+
+</blockquote>
+
+</details>
+
+##
+
 <details> 
   <summary>
-    <b><i>v0.77.0 </i></b><br />
+    <b><i> v0.77.0(aplha-public) </i></b><br />
   </summary>
   
   <blockquote>
-  <br>- Novidades: 0.77.0 (07/05/22)</br>
+  <br>- Novidades: 07/05/22 </br>
 
 ##
 
