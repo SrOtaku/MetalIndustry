@@ -1,0 +1,25 @@
+{
+details: Gigante o mais parrudo que você pode imaginar
+type: wall
+size: 3
+health: 6000
+buildTime: 60
+buildCostMultiplier: 1.0  //0.5
+hitTime: 60
+maxDamageDeflect: 16
+chanceDeflect: 30
+flashHit: true
+
+requirements:[
+  steelPlate/120
+  ironIngot/120
+]
+category: defense
+research:{
+  parent: ironWall2
+  requirements:[
+    ironIngot/240
+    steelPlate/240
+  ]
+}
+}

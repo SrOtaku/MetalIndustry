@@ -1,0 +1,24 @@
+{
+type: wall
+size: 2
+health: 4000
+buildTime: 60
+buildCostMultiplier: 2.0
+hitTime: 60
+maxDamageDeflect: 8
+chanceDeflect: 20
+flashHit: true
+
+requirements:[
+  steelPlate/40
+  ironIngot/40
+]
+category: defense
+research:{
+  parent: ironWall1
+  requirements:[
+    ironIngot/140
+    steelPlate/140
+  ]
+}
+}
