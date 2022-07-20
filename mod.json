@@ -50,10 +50,10 @@
 minGameVersion: 136
 #Versão oficial do jogo(Lembrete: Sempre mantenha atualizado).
 
-"hasScript": false,
+"script": false,
 #Se utilizar script true/false.
 
-"hasJava": false,
+"java": false,
 #Se funciona com java true/false.
 
 "hidden": false
