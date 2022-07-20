@@ -1,61 +1,33 @@
 {
+"repo": "SrOtaku/MetalIndustry",
+// Utilizado para GitHub.
+
 "displayName": "Metal Factory-MOD",
-//O nome do seu mod que aparecera no mindustry.
+// O nome do seu mod que aparecera no mindustry.
 
 "subtitle": "v0.80.5(Alpha-Public) ",
-//O titulo que aparecerá a baixo do título do seu mod.
+// O titulo que aparecerá a baixo do título do seu mod.
 
 "name": metalfactory,
-//"name" muito importante para a criação dos eu mod. Dica: sempre coloque em letras minúsculas, se for escrever separado coloque o ( - ) exemplo: metal-factory.
+// "name" muito importante para a criação dos eu mod. Dica: sempre coloque em letras minúsculas, se for escrever separado coloque o ( - ) exemplo: metal-factory.
 
 "author": "~(redgame69)~teus#4751",
-//author(Opcional). autor ja diz, o criador do mod.
+// author(Opcional). autor ja diz, o criador do mod.
 
-"description": "Bem vindo a Metal Factory!
-- Novidades: 0.80.5 (19/06/22)
-
-• Ajustes feito para a nova versão: [blue]v136[]
-
-- Avisos: 
-
-• O mod ainda esta em fazer ALPHA.
-• As atualizações serão recorrentes. 
-• Eu estou planejando lançamento oficialmente no GitHub quando chegar na versão (Beta)
-• O mod foi programado em [green].HJSON[] e em [red].JSON[].
-• Não recomendo utilizar este mod no modo campanha
-
-- WARNING: 
-
-• Mod made in .HJSON and .JSON I don't use .JAVA
-• The mod has not been fully translated into English. I recommend using [Portuguese Brazilian]
-
-- Menções/Creditos:
-  
-- Tradutores (pt-BR): LukeAlberti
-- Tradutores (in-EUA): RedGame69
-
-- Duvidas ? Bugs ou Erros? Fale comigo! 
-- Meu GitHub: [stat]https://github.com/SrOtaku/ModNathilha []",
-//descricão do seu mod.
+"description":"Bem vindo a Metal Factory!"
 
 "version": "0.80.5",
-//A versão do seu mod.
+// A versão do seu mod.
 
-//main:
-//Serve para direcionar o centro utilizando .java.
-
-"repo": "SrOtaku/MetalIndustry",
-//Utilizado para GitHub.
+// Serve para direcionar o centro utilizando .java.
 
 "minGameVersion": 136,
-//Versão oficial do jogo(Lembrete: Sempre mantenha atualizado).
+// Versão oficial do jogo(Lembrete: Sempre mantenha atualizado).
 
 
 "java": false,
-//Se funciona com java true/false.
+// Se funciona com java true/false.
 
 "hidden": false
-//Se é compatível com o multiplayer (Recomendo deixalo desativado).
-"hideBrowser": true,
-//Se aparecera na internet true/false.
-}
+// Se é compatível com o multiplayer (Recomendo deixalo desativado).
+},
