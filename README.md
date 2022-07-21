@@ -10,7 +10,7 @@
 
 <details>
   <summary>
-    <b><i /> v0.80.0(Aplha-Public) </b>
+    <b><i /> v0.80.5(Aplha-Public) </b>
   </summary>
 
 <blockquote>
