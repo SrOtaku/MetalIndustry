@@ -53,7 +53,7 @@
 ##
 
 ### Aviso:
-O mod não está disponível para a versão: ```v136```
+O mod não está totalmente adaptado para a versão: ```v136.1/v136```
 
 ##
 
