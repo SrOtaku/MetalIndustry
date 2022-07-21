@@ -34,7 +34,7 @@ shootCone: 10
 inaccuracy: 8
 shoot: {
   shots: 4
-  shotDelay: 0.5
+  shotDelay: 0
 }
 ammoTypes:{
   impactBullet:{
