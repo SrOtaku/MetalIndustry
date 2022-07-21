@@ -10,7 +10,6 @@ cooldown: 0.03
 restitution: 0.03
 itemCapacity: 40
 maxAmmo: 20
-inaccuracy: 0.5
 burstSpacing: 2
 buildTime: 60 //Marca quantos segundo vai ser 1 tick
 recoilAmount: 3
@@ -32,6 +31,11 @@ mirror: false
 shots: 4
 shootDelay: 4
 shootCone: 10
+inaccuracy: 8
+shoot: {
+  shots: 4
+  shotDelay: 0.5
+}
 ammoTypes:{
   impactBullet:{
     type: ArtilleryBulletType
