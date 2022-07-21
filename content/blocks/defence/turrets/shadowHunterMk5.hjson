@@ -13,7 +13,7 @@ maxAmmo: 15
 coolantMultiplier: 50
 spread: 1
 shootCone: 0.08
-inaccuracy: 15
+inaccuracy: 0
 recoilAmount: 2
 shootSound: shotgun
 //(false/true)
@@ -25,7 +25,10 @@ hasLiquid: true
 rotate: true
 buildTime: 60
 //config-(projectiles)
-shots: 8
+shoot:{
+  shots: 8
+  shotDelay: 0
+}
 bullet: 8
 ammoPerShot: 4
 ammoTypes:{
