@@ -24,7 +24,7 @@ hasLiquid: true
 targetGround: true
 targetAir: false
 mirror: true
-flipSprite: true
+flipSprite: false
 //sounds
 shootSound: shotMingun02
 //effects
