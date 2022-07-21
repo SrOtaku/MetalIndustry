@@ -14,8 +14,6 @@ maxAmmo: 35
 liquidCapacity: 12
 ammoEjectBack: 1
 ammoUseEffect: casing2
-shots: 2
-inaccuracy: 2
 //building-Time
 buildTime: 60
 //specialSettings-true/false
@@ -33,6 +31,11 @@ shootSound: shotMingun02
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
 //config-bulletsTypes
+inaccuracy: 2
+shoot:{
+  shots: 2
+  shotDelay: 0
+}
 ammoTypes:{
   impactBullet:{
     type: BasicBulletType
