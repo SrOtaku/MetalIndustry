@@ -28,11 +28,10 @@ hasItems: true
 hasPower: false
 hasLiquid: true
 mirror: false
-shots: 4
 shootDelay: 4
 shootCone: 10
 inaccuracy: 8
-shoot: {
+shoot:{
   shots: 4
   shotDelay: 0
 }
@@ -49,7 +48,7 @@ ammoTypes:{
     hitEffect: blastExplosion
     status: blasted 
     sprite: metalfactory-bulletBasic
-    splashDamageRadius: 38// 40 = 5.0 blocks//New: 20 = 2.5 [✓]
+    splashDamageRadius: 38 // 40 = 5.0 blocks//New: 20 = 2.5 [✓]
     splashDuration: 30
     splashDamage: 125
     
@@ -62,7 +61,7 @@ ammoTypes:{
     collidesAir: false
     collidesTitles: false
     makeFire: true
-    knockBack: 2.0
+    knockBack: 2
     
     trailFade:{
       trailInterval: 0  //Intervalos entre as imagens do trail
@@ -85,7 +84,7 @@ ammoTypes:{
       homingDalay: 0
       homingInterval: 1
       hitEffect: blastExplosion
-      splashDamage: 110
+      splashDamage: 30
       splashDuration: 74
       splashDamageRadius: 16
       sprite: metalfactory-fragmentBasic
@@ -111,7 +110,7 @@ ammoTypes:{
     
     splashDamageRadius: 19
     splashDuration: 30
-    splashDamage: 55
+    splashDamage: 60
     knockBack: 0.8
     
     hitEffect: blastExplosion
@@ -133,10 +132,10 @@ ammoTypes:{
     width: 7
     frontColor: ffcb80
     backColor: ffae3a
-    ammoMultiplier: 2
+    ammoMultiplier: 4
     splashDamageRadius: 19
     splashDuration: 30
-    splashDamage: 38
+    splashDamage: 35
     hitEffect: blastExplosion
     knockBack: 0.8
 
@@ -153,7 +152,7 @@ ammoTypes:{
 comsumes:{
   liquid:{
   loquid: water
-  amount: 0.1
+  amount: 0.2
   booster: true
   optional: true
   }
