@@ -2,10 +2,13 @@
   "type": "Item",
   "color": "75788f",
   "cost": 1.0,
+  "parent": "ironOre",
+  "research": "ironIngot"
+  "unlocked": true
   "objectives":[
     {
     "type": "Research",
     "content": "ironOre"
     }
-  ]
+  ],
 }
