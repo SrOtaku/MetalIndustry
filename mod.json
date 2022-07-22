@@ -2,7 +2,7 @@
 "displayName": "Metal Factory-MOD",
 // O nome do seu mod que aparecera no mindustry.
 
-"subtitle": "v0.80.5(Alpha-Public) ",
+"subtitle": "v0.81.0(Alpha-Public) ",
 // O titulo que aparecerá a baixo do título do seu mod.
 
 "name":"metalfactory",
@@ -14,7 +14,7 @@
 "description":"Bem vindo a Metal Factory!",
 // Descrição do seu mod.
 
-"version": "0.80.5(Aplha-Public)",
+"version": "0.81.0(Aplha-Public)",
 // A versão do seu mod.
 
 "java": false,
