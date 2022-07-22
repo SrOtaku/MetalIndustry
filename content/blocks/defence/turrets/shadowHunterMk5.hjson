@@ -4,7 +4,7 @@ health: 1250
 size: 2
 range: 300
 rotateSpeed: 15
-reloadTime: 25
+reload: 25
 cooldown: 0.06
 restitution: 0.06
 liquidCapacity: 22
@@ -12,7 +12,7 @@ itemCapacity: 30
 maxAmmo: 15
 coolantMultiplier: 50
 spread: 1
-shootCone: 0.08
+shootCone: 10
 recoilAmount: 2
 shootSound: shotgun
 //(false/true)
@@ -24,13 +24,12 @@ hasLiquid: true
 rotate: true
 buildTime: 60
 //config-(projectiles)
+ammoPerShot: 4
 inaccuracy: 10
 shoot:{
-  shots: 5
+  shots: 6
   shotDelay: 0
 }
-bullet: 8
-ammoPerShot: 4
 ammoTypes:{
   impactBullet:{
     type: BasicBulletType
@@ -41,7 +40,7 @@ ammoTypes:{
     width: 8
     frontColor: ffcb80
     backColor: ffae3a
-    ammoMultiplier: 4
+    ammoMultiplier: 6
     homingSpeed: 1.5
     homingPower: 60
     homingRange: 120
@@ -77,7 +76,7 @@ ammoTypes:{
     impact: false
     hitEffect: blastExplosion
     pierce: true
-    ammoMultiplier: 2
+    ammoMultiplier: 6
     pierceBuilding: true
     pierceCap: 20
     sprite: metalfactory-pierceBig
@@ -90,7 +89,7 @@ ammoTypes:{
     backColor: ffae3a
     height: 12
     width: 7
-    ammoMultiplier: 4
+    ammoMultiplier: 6
     lifetime: 30
     splashDamageRadius: 15
     splashDamage: 55
@@ -121,7 +120,7 @@ ammoTypes:{
     width: 7
     frontColor: ffcb80
     backColor: ffae3a
-    ammoMultiplier: 3
+    ammoMultiplier: 6
     
     shootEffect:{
       type: ParticleEffect
@@ -145,7 +144,7 @@ ammoTypes:{
     backColor: ffae3a
     height: 13
     width: 7
-    ammoMultiplier: 2
+    ammoMultiplier: 6
     shootEffect:{
       type: ParticleEffect
       particles: 1
