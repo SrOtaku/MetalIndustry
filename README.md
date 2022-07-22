@@ -9,12 +9,32 @@
 ##
 
 <details>
+ <details>
+  <summary>
+    <b><i /> v0.81.0(Aplha-Public) </b>
+  </summary>
+ 
+ <blockquote>
+ <br>- Novidades: 22/06/22 </br>
+ 
+ ##
+ 
+  - Torres remasterizadas.
+  - Refeito balanceamento de dano.
+  - Correções de dano velocidade de rotamente é animação de reaquecimento de terre.
+  
+
+</blockquote>
+</details>
+ 
+  ##
+  
   <summary>
     <b><i /> v0.80.5(Aplha-Public) </b>
   </summary>
 
 <blockquote>
-<br>- Novidades: 20/06/22
+<br>- Novidades: 20/06/22 </br>
 
 ##
 
