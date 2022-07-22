@@ -7,9 +7,8 @@
   </summary>
 
 ##
-
-<details>
- <details>
+ 
+ <details> 
   <summary>
     <b><i /> v0.81.0(Aplha-Public) </b>
   </summary>
@@ -26,9 +25,10 @@
 
 </blockquote>
 </details>
- 
-  ##
-  
+
+##
+
+<details>
   <summary>
     <b><i /> v0.80.5(Aplha-Public) </b>
   </summary>
@@ -43,12 +43,11 @@
 
 
 </blockquote>
-
 </details>
 
 ##
 
-<details> 
+<details>
   <summary>
     <b><i> v0.77.0(Aplha-Public) </i></b><br />
   </summary>
@@ -66,7 +65,6 @@
 
   </blockquote>  
   
-  </details>
 </details>
 </div>
 
