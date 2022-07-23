@@ -4,6 +4,10 @@
   "buildable": false,
   "explosiveness": 0.1,
   "flammability": 0.1,
+  "research":{
+    "parent": "drillingBulletProject",
+    "tree": "serpulo",
+  }
   
   "objectives":[
     {"type": "Research", "content": "titanium"},
