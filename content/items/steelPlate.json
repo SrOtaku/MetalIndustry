@@ -3,7 +3,10 @@
   "cost": 1.4,
   "buildable": true,
   "parent": "ironIngot",
-  
+  "research":{
+    "parent": "ironIngot",
+    "tree": "serpulo",
+  }
   "objectives": [
     {"type": "Research", "content": "ironIngot"},
     {"requirements": [
