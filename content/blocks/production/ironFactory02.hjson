@@ -26,8 +26,11 @@ requirements:[
   metaglass/80
 ]
 category: crafting
-parent: multi-press
 outputItem: steelPlate/4
+research:{
+  parent: multi-press
+  tree: serpulo
+}
   objectives:[
     {
       requirements:[
