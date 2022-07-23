@@ -29,25 +29,26 @@
 
 "category": "crafting",
 "results":[
-  {"item": "ironIngot", "amount": 10}
+  {"item": "ironIngot", "amount": ,6}
 ],
-"research": "melter",
-"parent": "melter",
+"research":{
+  "parent": "melter",
+  "tree": "serpulo",
+}
 "objectives":[
     {"type": "Research", "content": "melter"},
     {
       "requirements":[
-        {"item": "graphite", "amount": 4500},
-        {"item": "titanium", "amount": 4500},
-        {"item": "metaglass", "amount": 4500},
-        {"item": "silicon", "amount": 3500}
+        {"item": "graphite", "amount": 3500},
+        {"item": "titanium", "amount": 3500},
+        {"item": "metaglass", "amount": 3500},
+        {"item": "silicon", "amount": 2500}
       ],
     }
   ],
 "requirements":[
-  {"item": "graphite", "amount": 40},
-  {"item": "titanium", "amount": 35},
-  {"item": "metaglass", "amount": 35},
-  {"item": "silicon", "amount": 25}
+  {"item": "titanium", "amount": 40},
+  {"item": "metaglass", "amount": 80},
+  {"item": "silicon", "amount": 180}
 ],
 }
