@@ -5,7 +5,7 @@
   "explosiveness": 0.5,
   "flammability": 1.8,
   "research":{
-    "parent": "pyratite",
+    "parent": "flammBulletProject",
     "tree": "serpulo",
   }
   "objectives":[
