@@ -29,7 +29,10 @@ requirements:[
 ]
 category: crafting
 outputItem: ironIngot/2
-research: ironOre
+research:{
+  parent: kiln
+  tree: serpulo
+}
   objectives:[
     {
       requirements:[
