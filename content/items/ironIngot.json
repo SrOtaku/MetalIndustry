@@ -2,10 +2,10 @@
   "type": "Item",
   "color": "75788f",
   "cost": 1.0,
-  "parent": "ironOre",
   "research":{
     "parent":"ironOre",
     "tree": "serpulo",
+ 
   }
   "unlocked": true
   "objectives":[
