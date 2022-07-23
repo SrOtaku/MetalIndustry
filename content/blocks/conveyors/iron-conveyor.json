@@ -12,12 +12,16 @@
 	{"item": "steelPlate", "amount": 1}
 	],
 "category": "distribution",
-"research": "titanium-conveyor",
 "research": {
   "parent": "titanium-conveyor",
-  "requirements":[
-    {"item": "steelPlate", "amount": 200,},
-    {"item": "ironIngot", "amount": 200,}
-  ]
+  "tree": "serpulo",
+}
+"objectives": {
+  {
+    "requirements":[
+      {"item": "steelPlate", "amount": 200,},
+      {"item": "ironIngot", "amount": 200,}
+    ]
+  }
 }
 }
