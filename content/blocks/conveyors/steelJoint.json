@@ -9,11 +9,17 @@
   {"item": "ironIngot", "amount": 4}
 ],
 "category": "distribution",
-"research": {
+"research":{
   "parent": "iron-conveyor",
-  "requirements":[
-    {"item": "ironIngot", "amount": 150,},
-    {"item": "steelPlate", "amount": 150,}
-  ],
+  "tree": "serpulo",
 }
+
+"objectives": [
+ { 
+    "requirements":[
+      {"item": "ironIngot", "amount": 150,},
+      {"item": "steelPlate", "amount": 150,}
+    ],
+ }
+]
 }
