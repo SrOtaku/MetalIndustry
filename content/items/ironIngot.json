@@ -3,7 +3,10 @@
   "color": "75788f",
   "cost": 1.0,
   "parent": "ironOre",
-  "research": "ironIngot"
+  "research":{
+    "parent":"ironOre",
+    "tree": "serpulo",
+  }
   "unlocked": true
   "objectives":[
     {
