@@ -27,13 +27,17 @@ requirements:[
 ]
 category: crafting
 outputItem: flammBullet/2
-research: ironFactory04
-research: {
+research:{
   parent: ironFactory04
-  requirements:[
-    ironIngot/3500
-    steelPlate/3500
-    silicon/3500
-  ]
+  tree: serpulo
+}
+objectives: {
+  {
+    requirements:[
+      ironIngot/3000
+      steelPlate/3000
+      silicon/3000
+    ]
+  }
 }
 }
