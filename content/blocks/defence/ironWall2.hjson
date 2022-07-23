@@ -16,9 +16,14 @@ requirements:[
 category: defense
 research:{
   parent: ironWall1
-  requirements:[
-    ironIngot/140
-    steelPlate/140
-  ]
+  tree: serpulo
 }
+objectives:[
+  {
+    requirements:[
+      ironIngot/140
+      steelPlate/140
+    ]
+  }
+]
 }
