@@ -4,7 +4,10 @@
   "buildable": false,
   "explosiveness": 0.4,
   "flammability": 0.4,
-  
+  "research":{
+    "parent": "solidFuel",
+    "tree": "serpulo",
+  }
   "objectives": [
       {"requiriments": [
           {"item": "solidFuel", "amount": 1000}
