@@ -35,8 +35,10 @@ requirements:[
 ]
 category: crafting
 outputItem: solidFuel/4
-research: silicon-smelter
-parent: silicon-smelter
+research:{
+  parent: silicon-smelter
+  tree: serpulo
+}
   objectives:[
     { 
       requirements:[
