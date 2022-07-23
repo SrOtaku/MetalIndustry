@@ -4,6 +4,11 @@
   "buildable": false,
   "explosiveness": 0.4,
   "flammability": 1.7,
+  "research":{
+    "parent": "pyratite",
+    "tree": "serpulo",
+  }
+  
   "objectives":[
     {"requiriments":[
         {"item": "pyratite", "amount": 1000}
