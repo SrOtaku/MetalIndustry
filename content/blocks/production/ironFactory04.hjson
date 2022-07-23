@@ -27,8 +27,10 @@ requirements:[
 ]
 category: crafting
 outputItem: drillingBullet/2
-research: ironFactory03
-parent: ironFactory03
+research:{
+  parent: ironFactory03
+  tree: serpulo
+}
   objectives: [
     {
       requirements:[
