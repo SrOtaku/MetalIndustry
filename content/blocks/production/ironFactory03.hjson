@@ -26,8 +26,10 @@ requirements:[
 ]
 category: crafting
 outputItem: impactBullet/2
-parent: ironFactory02
-research: ironFactory02
+research:{
+  parent: ironFactory02
+  tree: serpulo
+}
   objectives: [
     {
       requirements:[
