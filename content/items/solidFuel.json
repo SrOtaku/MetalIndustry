@@ -1,12 +1,16 @@
 {
-"details": "Utilizado em geradores de energia e em produção de armamentos.",
-"hardness": 4,
-"color": 636369,
+  "details": "Utilizado em geradores de energia e em produção de armamentos.",
+  "hardness": 4,
+  "color": 636369,
   "cost": 0.5,
   "buildable": false,
   "explosiveness": 0.5,
   "flammability": 0.5,
   "minItemEfficiency": 1.0,
+  "research":{
+    "parent": "coal",
+    "tree": "serpulo",
+  }
 
   "objectives": [
     {"requirements": [
