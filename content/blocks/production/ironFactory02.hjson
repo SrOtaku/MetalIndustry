@@ -5,7 +5,7 @@ size: 3
 buildTime: 60
 buildCostMultiplier: 1.31
 itemsCapacity: 10
-hasPower: true
+hasPower: false
 hasItems: true
 hasLiquid: true
 
