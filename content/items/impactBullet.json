@@ -4,6 +4,10 @@
   "buildable": false,
   "explosiveness": 0.5,
   "flammability": 0.5,
+  "research":{
+    "parent": "impactBulletProject",
+    "tree": "serpulo",
+  }
   
   "objectives":[
     {"research": "impactBulletProject"}
