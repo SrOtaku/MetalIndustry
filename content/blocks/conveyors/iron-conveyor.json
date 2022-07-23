@@ -16,12 +16,12 @@
   "parent": "titanium-conveyor",
   "tree": "serpulo",
 }
-"objectives": {
+"objectives": [
   {
     "requirements":[
       {"item": "steelPlate", "amount": 200,},
       {"item": "ironIngot", "amount": 200,}
     ]
   }
-}
+]
 }
