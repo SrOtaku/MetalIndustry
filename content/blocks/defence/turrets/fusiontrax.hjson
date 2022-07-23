@@ -33,11 +33,31 @@ requirements:[
 ]
 category: turret
 research:{
-  parent: duo
-  requirements:[
-    ironIngot/3200
-    steelPlate/3000
-    metaglass/2000
-  ]
+  parent: parallax
+  tree: serpulo
 }
+objectives:[
+  {
+    requirements:[
+      ironIngot/3200
+      steelPlate/3000
+      metaglass/2000
+    ]
+  }
+  {
+    type: Research
+    content: ironIngot
+  }
+  {
+    type: Research
+    content: steelPlate
+  }
+  {
+    type: Research
+    content: solidFuel
+  }
+  {
+    type: Research
+    content: parallax
+]
 }
