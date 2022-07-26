@@ -130,17 +130,25 @@ consumes:{
 requirements:[
   ironIngot/25
   steelPlate/25
-  copper/25
+  silicon/25
 ]
 category: turret
 parent: duo
 objectives:[
   {
     requirements:[
-      ironIngot/2500
+      ironIngot/2000
       steelPlate/2000
-      copper/2500
+      silicon/2000
     ]
+  }
+  {
+    type: Research 
+    content: steelPlate
+  }
+  {
+    type: Research
+    content: ironFactory02
   }
 ]
 }
