@@ -25,5 +25,9 @@ objectives:[
       steelPlate/140
     ]
   }
+  {
+    type: Research
+    content: ironWall1
+  }
 ]
 }
