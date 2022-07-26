@@ -13,7 +13,7 @@ itemCapacity: 35
 maxAmmo: 35
 liquidCapacity: 12
 ammoEjectBack: 1
-ammoUseEffect: casing2
+ammoUseEffect: casing2Double
 buildTime: 60
 
 //settings-true/false
@@ -46,8 +46,8 @@ ammoTypes:{
     speed: 7
     lifetime: 30
     hitSize: 10 // tamanho do efeito em área
-    height: 9 // largura
-    width: 7
+    height: 12// largura
+    width: 8
     frontColor: ffcb80
     backColor: ffae3a
     knockback: 1.5
@@ -84,8 +84,8 @@ ammoTypes:{
     damage: 24
     speed: 7
     lifetime: 30
-    height: 8
-    width: 4
+    height: 12
+    width: 8
     frontColor: ffcb80
     backColor: ffae3a
     impact: false
@@ -100,8 +100,8 @@ ammoTypes:{
     damage: 0
     speed: 7
     knockback: 0.5
-    height: 9
-    width: 6
+    height: 12
+    width: 8
     lifetime: 35
     status: burning
     splashDamage: 40
@@ -117,8 +117,8 @@ ammoTypes:{
     damage: 32
     speed: 7
     lifetime: 30
-    height: 7
-    width: 6
+    height: 12
+    width: 8
     frontColor: ffcb80
     backColor: ffae3a
     ammoMultiplier: 2
@@ -132,7 +132,7 @@ ammoTypes:{
     type: BasicBulletType
     damage: 17
     speed: 7
-    height: 9
+    height: 12
     width: 8
     frontColor: ffcb80
     backColor: ffae3a
