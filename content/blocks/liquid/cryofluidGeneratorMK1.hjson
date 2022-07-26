@@ -45,8 +45,6 @@ outputLiquid: cryofluid/120
 research:{
   parent: cryofluid-mixer
   tree: supelo
-  root: true
-  alwaysUnlocked: true
 }
   objectives:[
     {
