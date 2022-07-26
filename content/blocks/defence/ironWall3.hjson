@@ -19,10 +19,17 @@ research:{
  parent: ironWall2
  tree: serpulo
 }
-objectives:{
-  requirements:[
-    ironIngot/240
-    steelPlate/240
-  ]
-}
+objectives:
+  {
+    requirements:[
+      ironIngot/240
+      steelPlate/240
+    ]
+  }
+    type: Research
+    content: ironWall2
+  }
+  {
+    type: Research
+    content: ironWall1
 }
