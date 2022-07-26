@@ -29,9 +29,8 @@
 
 "category": "crafting",
 "results":[
-  {"item": "ironIngot", "amount": 6},
-  {"item": "lead", "amount": 1},
-  {"item": "copper", "amount": 2}
+  {"item": "ironIngot", "amount": 10},
+  {"item": "scrap", "amount": 1}
 ],
 "research":{
   "parent": "melter",
