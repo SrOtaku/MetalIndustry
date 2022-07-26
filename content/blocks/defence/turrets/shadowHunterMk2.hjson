@@ -32,7 +32,7 @@ shootEffect: shootBig
 smokeEffect: shootBigSmoke
 
 //config-bulletsTypes
-inaccuracy: 2
+inaccuracy: 0.5
 shoot:{
   type: ShootAlternate
   shots: 2
