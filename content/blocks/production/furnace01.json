@@ -1,0 +1,55 @@
+{
+"type": "Separator",
+"health": 230,
+"size": 2,
+"craftTime": 45,
+"spinnerSpeed": 0,
+"itemCapacity": 10,
+"liquidCapacity": 20,
+"outputsLiquid": false,
+"hasLiquids": true,
+"hasPower": true,
+"hasItems": true,
+"rotate": false,
+"drawer": false,
+"consumes":{
+  "power": 1.1,
+  "items":{
+    "items":[
+      {"item": "scrap", "amount": 2}
+    ],
+  }
+  "liquid":{
+    "liquid": "slag",
+    "amount": 0.08,
+    "optional": false,
+  }
+}
+
+
+"category": "crafting",
+"results":[
+  {"item": "ironIngot", "amount": 6},
+  {"item": "lead", "amount": 1},
+  {"item": "copper", "amount": 2}
+],
+"research":{
+  "parent": "melter",
+  "tree": "serpulo",
+}
+"objectives":[
+    {"type": "Research", "content": "melter"},
+    {
+      "requirements":[
+        {"item": "titanium", "amount": 2500},
+        {"item": "metaglass", "amount": 2500},
+        {"item": "silicon", "amount": 2500}
+      ],
+    }
+  ],
+"requirements":[
+  {"item": "titanium", "amount": 40},
+  {"item": "metaglass", "amount": 80},
+  {"item": "silicon", "amount": 120}
+],
+}
