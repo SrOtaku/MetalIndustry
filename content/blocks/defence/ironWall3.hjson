@@ -19,7 +19,7 @@ research:{
  parent: ironWall2
  tree: serpulo
 }
-objectives:{
+objectives:[
   {
     requirements:[
       ironIngot/240
@@ -34,5 +34,5 @@ objectives:{
     type: Research
     content: ironWall1
   }
-}
+]
 }
