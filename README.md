@@ -69,11 +69,15 @@
 </div>
 
 ##
-<description>
- <i>
-  Detalhes
- </i>
-</description>
+
+<details>
+ <description>
+  <i>
+    Detalhes
+  </i>
+ </description>
+</details>
+
 ##
 
 ### Aviso:
