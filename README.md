@@ -68,19 +68,9 @@
 </details>
 </div>
 
-##
-
-<b><i>Descrição</b></i>
-
-<sub>
-Aviso:
-O mod não está totalmente adaptado para a versão: ```v136.1/v136```
-</sub>
-
-<h3>Importante:</h3>
-• O mod ainda esta em fase <i><b>Beta</b></i>.<br>
-• Não recomendo utilizar <b>MetalIndustry</b> no seu modo campanha, poder ser instável.<br>
+### Importante:
+• O mod ainda esta em fase `Beta`.<br>
+• Não recomendo utilizar no seu modo campanha.<br>
 • Como eu sou iniciante em programação, o mod ainda está desequilibrado, pretendo ajustar pelo decorrer do tempo.
-<h3>Copyright:</h3>
- 
-• O <b>MetalIndustry</b> está licenciado sobre <i><b>GNU v3.0</b></i> Para mais informações acesse. [GNU General Public License v3.0](/LICENSE)
+###### Copyright:
+>• O <b>MetalIndustry</b> está licenciado sobre <i><b>GNU v3.0</b></i> Para mais informações acesse. [GNU General Public License v3.0](/LICENSE)
