@@ -72,12 +72,10 @@
 
 <b><i>Descrição</b></i>
 
-##
-
-### Aviso:
+<sub>
+Aviso:
 O mod não está totalmente adaptado para a versão: ```v136.1/v136```
-
-##
+</sub>
 
 <h3>Importante:</h3>
 • O mod ainda esta em fase <i><b>Beta</b></i>.<br>
