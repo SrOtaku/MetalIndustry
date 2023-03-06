@@ -3,7 +3,7 @@ type: ItemTurret
 health: 1250
 size: 2
 range: 300
-rotateSpeed: 15
+rotateSpeed: 12
 reload: 25
 cooldown: 0.06
 restitution: 0.06
@@ -15,7 +15,8 @@ spread: 1
 shootCone: 10
 recoilAmount: 2
 shootSound: shotgun
-//(false/true)
+
+  //(false/true)
 targetGround: false
 targetAir: true
 hasItems: true
@@ -23,9 +24,11 @@ hasPower: false
 hasLiquid: true
 rotate: true
 buildTime: 60
-//config-(projectiles)
+
+  //config-(projectiles)
 ammoPerShot: 4
 inaccuracy: 10
+
 shoot:{
   shots: 6
   shotDelay: 0
