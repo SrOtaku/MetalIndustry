@@ -7,11 +7,6 @@
   </summary>
 
 ##
-<details>
- <description>
-   Teste
- </description>
-</details>
  
  <details> 
   <summary>
@@ -73,6 +68,12 @@
 </details>
 </div>
 
+##
+<description>
+ <i>
+  Detalhes
+ </i>
+</description>
 ##
 
 ### Aviso:
