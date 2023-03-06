@@ -70,7 +70,7 @@
 
 ##
 
-<b><i>Saiba mais</b></i>
+<b2><i>Saiba mais</b2></i>
 
 ##
 
