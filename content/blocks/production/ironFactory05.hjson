@@ -31,13 +31,13 @@ research:{
   parent: ironFactory04
   tree: serpulo
 }
-objectives: {
-  {
-    requirements:[
-      ironIngot/3000
-      steelPlate/3000
-      silicon/3000
-    ]
-  }
-}
+objectives: [
+    {
+      requirements:[
+        ironIngot/3000
+        steelPlate/3000
+        silicon/3000
+      ]
+    }
+  ]
 }
