@@ -70,13 +70,7 @@
 
 ##
 
-<details>
- <description>
-  <i>
-    Detalhes
-  </i>
- </description>
-</details>
+<b><i>Saiba mais</b></i>
 
 ##
 
