@@ -70,7 +70,7 @@
 
 ##
 
-<b2><i>Saiba mais</b2></i>
+<b><i>Descrição</b></i>
 
 ##
 
