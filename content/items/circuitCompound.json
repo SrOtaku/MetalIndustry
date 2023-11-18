@@ -1,0 +1,31 @@
+{
+"type": "Item",
+"color": "3E8948FF",
+"hardness": 0,
+"cost": 2.2,
+"buildlabe": false,
+"research":{
+  "parent": "silicon",
+  "tree": "serpulo",
+}
+"objectives":[
+  {
+    "requirements":[
+        {"item": "silicon", "amount": 2500},
+        {"item": "copper", "amount": 2000}
+      ],
+  },
+  {
+    "type": "research",
+    "conent": "silicon"
+  },
+  {
+    "type": "research",
+    "conent": "copper"
+  },
+  {
+    "type": "research",
+    "conent": "componetAssembler",
+  }
+  ],
+}
