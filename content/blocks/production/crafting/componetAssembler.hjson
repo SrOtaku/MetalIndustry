@@ -1,0 +1,63 @@
+{
+type: GenericCrafter
+size: 2
+itemsCapacity: 20
+hasPower: true
+hasItem: true
+hasLiquid: false
+
+craftEffect: none
+updateEffect: smeltsmoke
+// obs: muda o som do efeito de operação da maquia
+ambientSound: machine
+consumes:{
+  power: 1.0
+  items:{
+    items:[
+      copper/2
+      silicon/2
+    ]
+  }
+}
+category: crafting
+outputItem: circuitCompound/1
+craftTime: 180
+requirements:[
+  ironIngot/100
+  steelPlate/250
+]
+research:{
+  parent: assemble01
+  tree: serpulo
+}
+objectives:[
+  {
+    requirements:[
+      ironIngot/3500
+      steelPlate/3500
+      silicon/3500
+      copper/5000
+    ]
+  }
+  {
+    type: research
+    content: silicon
+  }
+  {
+    type: research
+    content: ironIngot
+  }
+  {
+    type: research
+    content: steelPlate
+  }
+  {
+    type: research
+    content: copper
+  }
+  {
+    type: research
+    content: ironFactory02
+  }
+]
+}
